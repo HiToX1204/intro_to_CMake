@@ -1,1 +1,2 @@
 # intro_to_CMake
+本仓库记录本人学习CMake的一些过程与文件
