@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(HELLOGUY LANGUAGES CXX)
+add_executable(hello main.cpp)
+target_compile_features(hello PRIVATE cxx_std_17)
+set_target_properties(hello PROPERTIES CXX_EXTENSIONS OFF)
